@@ -80,6 +80,7 @@ fn parse_smp_qemu_value(value: &str) -> Option<usize> {
         cpu_num.parse().ok()
     })
 }
+
 #[cfg(test)]
 mod tests {
     use std::{fs, path::PathBuf};
