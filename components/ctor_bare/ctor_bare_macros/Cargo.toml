@@ -1,6 +1,6 @@
 [package]
 name = "ax-ctor-bare-macros"
-edition = "2024"
+edition.workspace = true
 description = "Macros for registering constructor functions for Rust under no_std."
 version = "0.4.7"
 repository = "https://github.com/rcore-os/tgoskits"

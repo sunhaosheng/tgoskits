@@ -1,5 +1,5 @@
 [package]
-edition = "2024"
+edition.workspace = true
 name = "axplat-riscv64-qemu-virt-hv"
 version = "0.5.5"
 description = "Hardware platform implementation for the RISC-V64 QEMU virt machine used by AxVisor"

@@ -2,7 +2,7 @@
 name = "mingo"
 version = "0.8.3"
 authors = ["Andre Richter <andre.o.richter@gmail.com>"]
-edition = "2024"
+edition.workspace = true
 license = "Apache-2.0"
 publish = false
 

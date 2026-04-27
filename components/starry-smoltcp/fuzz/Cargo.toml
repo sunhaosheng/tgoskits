@@ -3,7 +3,7 @@ name = "smoltcp-fuzz"
 version = "0.2.2"
 authors = ["Automatically generated"]
 publish = false
-edition = "2018"
+edition.workspace = true
 license = "Apache-2.0"
 
 [package.metadata]

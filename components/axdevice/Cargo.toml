@@ -8,7 +8,7 @@ keywords = ["hypervisor"]
 authors = ["Su Mingxian <aarkegz@gmail.com>"]
 documentation = "https://docs.rs/axdevice"
 categories = ["virtualization"]
-edition = "2024"
+edition.workspace = true
 readme = "README.md"
 license = "Apache-2.0"
 

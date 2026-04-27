@@ -5,9 +5,8 @@ categories = ["development-tools::procedural-macro-helpers", "config", "parsing"
 keywords = ["arceos", "config", "toml"]
 version = "0.4.7"
 repository = "https://github.com/rcore-os/tgoskits"
-edition = "2021"
+edition.workspace = true
 authors = ["Yuekai Jia <equation618@gmail.com>"]
-rust-version = "1.76"
 license = "Apache-2.0"
 
 [features]

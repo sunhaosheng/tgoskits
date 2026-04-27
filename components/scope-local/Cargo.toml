@@ -1,7 +1,7 @@
 [package]
 name = "scope-local"
 version = "0.3.6"
-edition = "2024"
+edition.workspace = true
 description = "Scope local storage"
 authors = ["朝倉水希 <asakuramizu111@gmail.com>"]
 keywords = ["arceos"]

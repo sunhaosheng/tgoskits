@@ -1,7 +1,7 @@
 [package]
 name = "axhvc"
 version = "0.4.5"
-edition = "2024"
+edition.workspace = true
 authors = ["AxVisor Team"]
 description = "AxVisor HyperCall definitions for guest-hypervisor communication"
 documentation = "https://docs.rs/axhvc"

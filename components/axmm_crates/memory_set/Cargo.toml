@@ -5,10 +5,9 @@ keywords = ["arceos", "virtual-memory", "memory-area", "mmap"]
 
 version = "0.6.7"
 repository = "https://github.com/rcore-os/tgoskits"
-edition = "2021"
+edition.workspace = true
 authors = ["Yuekai Jia <equation618@gmail.com>", "aarkegz <aarkegz@gmail.com>"]
 categories = ["os", "memory-management", "no-std"]
-rust-version = "1.70.0"
 license = "Apache-2.0"
 
 [dependencies]

@@ -5,7 +5,7 @@ repository = "https://github.com/rcore-os/tgoskits"
 description = "ARM64 common peripheral drivers with `axplat` compatibility"
 keywords = ["arceos", "os", "hal", "peripheral", "aarch64"]
 categories = ["embedded", "no-std", "hardware-support", "os"]
-edition = "2024"
+edition.workspace = true
 authors = ["Yuekai Jia <equation618@gmail.com>", "Youjie Zheng <Azure_stars@126.com>", "yanjuguang <coolyanjg@163.com>", "Su Mingxian <aarkegz@gmail.com>", "RobertYuan <634954435@qq.com>", "hky1999 <keyang.hu@qq.com>"]
 license = "Apache-2.0"
 
