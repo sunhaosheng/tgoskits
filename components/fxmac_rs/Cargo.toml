@@ -17,7 +17,6 @@ debug = []
 
 [dependencies]
 log = "0.4"
-ax-crate-interface = "0.5"
-
+ax-crate-interface = { workspace = true }
 [target.'cfg(target_arch = "aarch64")'.dependencies]
 aarch64-cpu = "10"

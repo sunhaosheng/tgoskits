@@ -1,9 +1,9 @@
 [package]
 name = "test-weak"
 version = "0.3.4"
-edition.workspace = true
-publish.workspace = true
-license.workspace = true
+edition = "2021"
+publish = false
+license = "Apache-2.0"
 
 [dependencies]
 ax-crate-interface.workspace = true

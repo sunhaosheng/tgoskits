@@ -24,7 +24,7 @@ name = "axvmconfig"
 path = "src/main.rs"
 
 [dependencies]
-ax-errno = "0.4"
+ax-errno = { workspace = true }
 enumerable = {version = "1.2", default-features = false}
 log = "0.4.21"
 serde = {version = "1.0.204", default-features = false, features = ["derive"]}

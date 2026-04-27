@@ -16,8 +16,7 @@ targets = ["loongarch64-unknown-none-softfloat"]
 log = "0.4"
 spin = "0.10"
 
-ax-errno = "0.4"
-ax-percpu = "0.4"
-
-axaddrspace = "0.5"
-axvcpu = "0.5"
+ax-errno = { workspace = true }
+ax-percpu = { workspace = true }
+axaddrspace = { workspace = true }
+axvcpu = { workspace = true }

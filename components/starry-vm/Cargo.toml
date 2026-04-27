@@ -13,7 +13,7 @@ default = ["alloc"]
 alloc = []
 
 [dependencies]
-ax-errno = "0.4"
+ax-errno = { workspace = true }
 bytemuck = { version = "1.24", features = [
     "align_offset",
     "const_zeroed",

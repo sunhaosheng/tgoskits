@@ -8,4 +8,4 @@ description = "Provides a way to define an interface (trait) in a crate, but can
 keywords = ["arceos", "api", "macro"]
 categories = ["development-tools::procedural-macro-helpers", "no-std"]
 rust-version = "1.68"
-license.workspace = true
+license = "Apache-2.0"

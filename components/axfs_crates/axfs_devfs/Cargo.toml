@@ -2,12 +2,12 @@
 name = "ax-fs-devfs"
 description = "Device filesystem used by ArceOS"
 keywords = ["arceos", "filesystem", "devfs"]
-edition.workspace = true
+edition = "2021"
 version = "0.3.8"
-repository.workspace = true
-authors.workspace = true
-categories.workspace = true
-license.workspace = true
+repository = "https://github.com/rcore-os/tgoskits"
+authors = ["Yuekai Jia <equation618@gmail.com>"]
+categories = ["os", "no-std", "filesystem"]
+license = "Apache-2.0"
 
 [dependencies]
 ax-fs-vfs.workspace = true

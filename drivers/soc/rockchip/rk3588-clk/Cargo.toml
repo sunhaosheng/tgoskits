@@ -18,8 +18,7 @@ tock-registers = "0.10"
 [dev-dependencies]
 bare-test = "0.7"
 sdmmc = "0.1"
-rockchip-pm = "0.4"
-
+rockchip-pm = { workspace = true }
 [build-dependencies]
 bare-test-macros = "0.2"
 

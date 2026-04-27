@@ -86,7 +86,7 @@ fn rewrite_self_in_default_body(
             // Generate new proxy function
             let sig = self.method_signatures.get(&method_key)?;
             let mod_name = extern_fn_mod_name(self.trait_name);
-            let extern_fn = extern_fn_name(self.namespace, &self.trait_name, &method_name);
+            let extern_fn = extern_fn_name(self.namespace, self.trait_name, &method_name);
             let proxy_name = Self::proxy_name(&method_name);
 
             // Extract arguments for the call
